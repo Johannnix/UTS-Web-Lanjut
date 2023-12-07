@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+.kotakLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kotakButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background-color: #ffb800;
+    border: 1px solid #ffb800;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+    margin: 0 8px;
+}
+
+.daftar {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+.logo {
+    width: 245px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navLink {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+footer {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffb800;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginKiri {
+    width: 560px;
+}
+
+.loginTitle {
+    margin-bottom: 50px;
+}
+
+.imgLogin {
+    width: 560px;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 82.235px;
+}
+
+input {
+    width: 480px;
+    height: 82.235px;
+    border-radius: 15px;
+    border: 1px solid #c8c8c8;
+    background: #fffefe;
+    padding: 0 20px;
+    margin: 10px 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.buttonLogin {
+    width: 480px;
+    height: 82.235px;
+    border-radius: 15px;
+    border: none;
+    background: #ffb800;
+    padding: 0 20px;
+    margin: 10px 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.regulasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.conGoogle {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    margin: 0 10px;
+}
+
+.layoutKanan {
+    float: right;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px !important;
+    height: 62px !important;
+    border-radius: 15px;
+    border: 1px solid #c8c8c8;
+    background: #fffefe;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.logoGoogle {
+    width: 43px;
+    height: 43px;
+}
+
+a {
+    cursor: pointer;
+}
