@@ -18,7 +18,7 @@
             <li class="navItem"><a href="/about" class="navLink">About</a></li>
             <li class="navItem"><a href="/services" class="navLink">Services</a></li>
             <div class="kotakButton">
-                <a href="/" class="button">Sign In</a>
+                <a href="/" class="btn button">Sign In</a>
                 <a href="/daftar" class="button daftar">Sign Up</a>
             </div>
         </ul>

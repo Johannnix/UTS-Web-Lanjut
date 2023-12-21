@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Services;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,7 @@ Route::get('/', function () {
 Route::get('/daftar', function () {
     return view('daftar');
 });
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/services', [Services::class, 'index']);
