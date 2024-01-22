@@ -7,12 +7,15 @@
     <div class="loginKiri">
         <div class="layoutKanan">
             <h1 class="loginTitle">Sign Up</h1>
-            <form action="">
+            <form action="{{ route('register') }}" method="POST">
                 @csrf
-                <a class="google input">
+                <a class="google input" href="{{ route('loginGoogle') }}">
                     <img class="logoGoogle" src="{{ URL::asset('images/flat-color-icons_google.png') }}" alt="">
                     <p class="conGoogle">CONNECT WITH GOOGLE</p>
                 </a>
+                <div class="formLogin">
+                    <input type="text" name="name" id="name" placeholder="Name" class="inputLogin">
+                </div>
                 <div class="formLogin">
                     <input type="email" name="email" id="email" placeholder="Email" class="inputLogin">
                 </div>
